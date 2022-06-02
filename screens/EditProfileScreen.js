@@ -142,7 +142,7 @@ const EditProfileScreen = () => {
         <View style={styles.action}>
           <FontAwesome name="user-o" color={colors.text} size={20} />
           <TextInput
-            placeholder="First Name"
+            placeholder="Primeiro Nome"
             placeholderTextColor="#666666"
             autoCorrect={false}
             style={[
@@ -156,7 +156,7 @@ const EditProfileScreen = () => {
         <View style={styles.action}>
           <FontAwesome name="user-o" color={colors.text} size={20} />
           <TextInput
-            placeholder="Last Name"
+            placeholder="Ultimo Nome"
             placeholderTextColor="#666666"
             autoCorrect={false}
             style={[
@@ -170,7 +170,7 @@ const EditProfileScreen = () => {
         <View style={styles.action}>
           <Feather name="phone" color={colors.text} size={20} />
           <TextInput
-            placeholder="Phone"
+            placeholder="Telefone"
             placeholderTextColor="#666666"
             keyboardType="number-pad"
             autoCorrect={false}
@@ -200,7 +200,7 @@ const EditProfileScreen = () => {
         <View style={styles.action}>
           <FontAwesome name="globe" color={colors.text} size={20} />
           <TextInput
-            placeholder="Country"
+            placeholder="País"
             placeholderTextColor="#666666"
             autoCorrect={false}
             style={[
@@ -214,7 +214,7 @@ const EditProfileScreen = () => {
         <View style={styles.action}>
           <Icon name="map-marker-outline" color={colors.text} size={20} />
           <TextInput
-            placeholder="City"
+            placeholder="Cidade"
             placeholderTextColor="#666666"
             autoCorrect={false}
             style={[
@@ -226,7 +226,7 @@ const EditProfileScreen = () => {
           />
         </View>
         <TouchableOpacity style={styles.commandButton} onPress={() => {}}>
-          <Text style={styles.panelButtonTitle}>Submit</Text>
+          <Text style={styles.panelButtonTitle}>Salvar</Text>
         </TouchableOpacity>
       </Animated.View>
     </View>

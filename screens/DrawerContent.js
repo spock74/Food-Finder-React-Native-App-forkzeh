@@ -39,7 +39,7 @@ export function DrawerContent(props) {
                                 size={50}
                             />
                             <View style={{marginLeft:15, flexDirection:'column'}}>
-                                <Title style={styles.title}>John Doe</Title>
+                                <Title style={styles.title}>JFulano de Tal</Title>
                                 <Caption style={styles.caption}>@j_doe</Caption>
                             </View>
                         </View>
@@ -76,7 +76,7 @@ export function DrawerContent(props) {
                                 size={size}
                                 />
                             )}
-                            label="Profile"
+                            label="Perfil de Usuário"
                             onPress={() => {props.navigation.navigate('Profile')}}
                         />
                         <DrawerItem 
@@ -87,7 +87,7 @@ export function DrawerContent(props) {
                                 size={size}
                                 />
                             )}
-                            label="Bookmarks"
+                            label="Marcadores"
                             onPress={() => {props.navigation.navigate('BookmarkScreen')}}
                         />
                         <DrawerItem 
@@ -98,8 +98,8 @@ export function DrawerContent(props) {
                                 size={size}
                                 />
                             )}
-                            label="Settings"
-                            onPress={() => {props.navigation.navigate('SettingScreen')}}
+                            label="Configurações"
+                            onPress={() => {props.navigation.navigate('SettingsScreen')}}
                         />
                         <DrawerItem 
                             icon={({color, size}) => (
@@ -109,14 +109,28 @@ export function DrawerContent(props) {
                                 size={size}
                                 />
                             )}
-                            label="Support"
+                            label="Ajuda"
                             onPress={() => {props.navigation.navigate('SupportScreen')}}
                         />
+                        <DrawerItem 
+                            icon={({color, size}) => (
+                                <Icon 
+                                name="account-check-outline" 
+                                color={color}
+                                size={size}
+                                />
+                            )}
+                            label="Politica de privacidade"
+                            onPress={() => {props.navigation.navigate('PrivacyPolicyScreen')}}
+                        />
                     </Drawer.Section>
-                    <Drawer.Section title="Preferences">
+                    <Drawer.Section title="Preferências" options={{
+                        activeTintColor: paperTheme.colors.primary,
+                        fontSize: 33
+                    }}>
                         <TouchableRipple onPress={() => {toggleTheme()}}>
                             <View style={styles.preference}>
-                                <Text>Dark Theme</Text>
+                                <Text>Tema Escuro</Text>
                                 <View pointerEvents="none">
                                     <Switch value={paperTheme.dark}/>
                                 </View>
@@ -134,7 +148,7 @@ export function DrawerContent(props) {
                         size={size}
                         />
                     )}
-                    label="Sign Out"
+                    label="Sair do Sistema"
                     onPress={() => {signOut()}}
                 />
             </Drawer.Section>
@@ -185,5 +199,6 @@ const styles = StyleSheet.create({
       justifyContent: 'space-between',
       paddingVertical: 12,
       paddingHorizontal: 16,
+      fontWeight: 'bold',
     },
   });

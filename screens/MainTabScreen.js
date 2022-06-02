@@ -42,18 +42,18 @@ const MainTabScreen = () => (
       name="Notifications"
       component={NotificationStackScreen}
       options={{
-        tabBarLabel: 'Updates',
+        tabBarLabel: 'Noficações',
         tabBarColor: '#1f65ff',
         tabBarIcon: ({color}) => (
           <Icon name="ios-notifications" color={color} size={26} />
-        ),
+          ),
       }}
     />
     <Tab.Screen
       name="Profile"
       component={ProfileStackScreen}
       options={{
-        tabBarLabel: 'Profile',
+        tabBarLabel: 'Usuário',
         tabBarColor: '#694fad',
         tabBarIcon: ({color}) => (
           <Icon name="ios-person" color={color} size={26} />
@@ -95,7 +95,7 @@ const HomeStackScreen = ({navigation}) => {
         name="Home"
         component={HomeScreen}
         options={{
-          title: 'FoodFinder',
+          title: 'Minha Cidade',
           headerLeft: () => (
             <View style={{marginLeft: 10}}>
               <Icon.Button
@@ -133,15 +133,15 @@ const HomeStackScreen = ({navigation}) => {
           ),
         }}
       />
-      <HomeStack.Screen 
+      <HomeStack.Screen
         name="CardListScreen"
         component={CardListScreen}
         options={({route}) => ({
           title: route.params.title,
-          headerBackTitleVisible: false
+          headerBackTitleVisible: false,
         })}
       />
-      <HomeStack.Screen 
+      <HomeStack.Screen
         name="CardItemDetails"
         component={CardItemDetails}
         options={({route}) => ({
@@ -149,7 +149,7 @@ const HomeStackScreen = ({navigation}) => {
           headerBackTitleVisible: false,
           headerTitle: false,
           headerTransparent: true,
-          headerTintColor: '#fff'
+          headerTintColor: '#fff',
         })}
       />
     </HomeStack.Navigator>
@@ -166,6 +166,7 @@ const NotificationStackScreen = ({navigation}) => (
       headerTitleStyle: {
         fontWeight: 'bold',
       },
+      title: 'Notificações',
     }}>
     <NotificationStack.Screen
       name="Notifications"
@@ -229,7 +230,7 @@ const ProfileStackScreen = ({navigation}) => {
       <ProfileStack.Screen
         name="EditProfile"
         options={{
-          title: 'Edit Profile',
+          title: 'Editar Perfil',
         }}
         component={EditProfileScreen}
       />

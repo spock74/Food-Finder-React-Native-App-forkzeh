@@ -44,8 +44,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'FoodFinder' do
-  # Pods for FoodFinder
+target 'MinhaCidade' do
+  # Pods for MinhaCidade
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -100,10 +100,10 @@ target 'FoodFinder' do
   end
 end
 
-target 'FoodFinder-tvOS' do
-  # Pods for FoodFinder-tvOS
+target 'MinhaCidade-tvOS' do
+  # Pods for MinhaCidade-tvOS
 
-  target 'FoodFinder-tvOSTests' do
+  target 'MinhaCidade-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

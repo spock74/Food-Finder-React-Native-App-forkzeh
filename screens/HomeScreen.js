@@ -57,17 +57,17 @@ const HomeScreen = ({navigation}) => {
         <TouchableOpacity
           style={styles.categoryBtn}
           onPress={() =>
-            navigation.navigate('CardListScreen', {title: 'Restaurant'})
+            navigation.navigate('CardListScreen', {title: 'Vias Públicas'})
           }>
           <View style={styles.categoryIcon}>
             <Ionicons name="ios-restaurant" size={35} color="#FF6347" />
           </View>
-          <Text style={styles.categoryBtnTxt}>Restaurant</Text>
+          <Text style={styles.categoryBtnTxt}>Vias Públicas</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={styles.categoryBtn}
           onPress={() =>
-            navigation.navigate('CardListScreen', {title: 'Fastfood Center'})
+            navigation.navigate('CardListScreen', {title: 'Água e Esgotos'})
           }>
           <View style={styles.categoryIcon}>
             <MaterialCommunityIcons
@@ -76,13 +76,13 @@ const HomeScreen = ({navigation}) => {
               color="#FF6347"
             />
           </View>
-          <Text style={styles.categoryBtnTxt}>Fastfood Center</Text>
+          <Text style={styles.categoryBtnTxt}>Água e Esgotos</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.categoryBtn} onPress={() => {}}>
           <View style={styles.categoryIcon}>
             <MaterialCommunityIcons name="food" size={35} color="#FF6347" />
           </View>
-          <Text style={styles.categoryBtnTxt}>Snacks Corner</Text>
+          <Text style={styles.categoryBtnTxt}>Focos de Dengue</Text>
         </TouchableOpacity>
       </View>
       <View style={[styles.categoryContainer, {marginTop: 10}]}>
@@ -90,19 +90,19 @@ const HomeScreen = ({navigation}) => {
           <View style={styles.categoryIcon}>
             <Fontisto name="hotel" size={35} color="#FF6347" />
           </View>
-          <Text style={styles.categoryBtnTxt}>Hotels</Text>
+          <Text style={styles.categoryBtnTxt}>Escolas</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.categoryBtn} onPress={() => {}}>
           <View style={styles.categoryIcon}>
             <Ionicons name="md-restaurant" size={35} color="#FF6347" />
           </View>
-          <Text style={styles.categoryBtnTxt}>Dineouts</Text>
+          <Text style={styles.categoryBtnTxt}>Saúde</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.categoryBtn} onPress={() => {}}>
           <View style={styles.categoryIcon}>
             <MaterialIcons name="expand-more" size={35} color="#FF6347" />
           </View>
-          <Text style={styles.categoryBtnTxt}>Show More</Text>
+          <Text style={styles.categoryBtnTxt}>Mostrar Mais</Text>
         </TouchableOpacity>
       </View>
 
@@ -114,7 +114,7 @@ const HomeScreen = ({navigation}) => {
             fontWeight: 'bold',
             color: '#333',
           }}>
-          Recently Viewed
+          Vistos recentemente
         </Text>
         <View style={styles.card}>
           <View style={styles.cardImgWrapper}>
@@ -125,10 +125,11 @@ const HomeScreen = ({navigation}) => {
             />
           </View>
           <View style={styles.cardInfo}>
-            <Text style={styles.cardTitle}>Amazing Food Place</Text>
+            <Text style={styles.cardTitle}>Uma Anotação Sobre um Local</Text>
             <StarRating ratings={4} reviews={99} />
             <Text style={styles.cardDetails}>
-              Amazing description for this amazing place
+              Descrição para fatos, problemas, comentários ou elogios sobre este
+              local
             </Text>
           </View>
         </View>
@@ -141,10 +142,11 @@ const HomeScreen = ({navigation}) => {
             />
           </View>
           <View style={styles.cardInfo}>
-            <Text style={styles.cardTitle}>Amazing Food Place</Text>
+            <Text style={styles.cardTitle}>Uma Anotação Sobre um Local</Text>
             <StarRating ratings={4} reviews={99} />
             <Text style={styles.cardDetails}>
-              Amazing description for this amazing place
+              Descrição para fatos, problemas, comentários ou elogios sobre este
+              local
             </Text>
           </View>
         </View>
@@ -157,10 +159,11 @@ const HomeScreen = ({navigation}) => {
             />
           </View>
           <View style={styles.cardInfo}>
-            <Text style={styles.cardTitle}>Amazing Food Place</Text>
+            <Text style={styles.cardTitle}>Uma Anotação Sobre um Local</Text>
             <StarRating ratings={4} reviews={99} />
             <Text style={styles.cardDetails}>
-              Amazing description for this amazing place
+              Descrição para fatos, problemas, comentários ou elogios sobre este
+              local
             </Text>
           </View>
         </View>

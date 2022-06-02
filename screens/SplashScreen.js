@@ -33,18 +33,18 @@ const SplashScreen = ({navigation}) => {
                 backgroundColor: colors.background
             }]}
             animation="fadeInUpBig"
-        >
+        > 
             <Text style={[styles.title, {
                 color: colors.text
-            }]}>Find best food in your locality!</Text>
-            <Text style={styles.text}>Sign in with account</Text>
+            }]}>Colabore com o Cuidado da Sua Cidade!</Text>
+            <Text style={styles.text}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Text>
             <View style={styles.button}>
             <TouchableOpacity onPress={()=>navigation.navigate('SignInScreen')}>
                 <LinearGradient
                     colors={['#FFA07A', '#FF6347']}
                     style={styles.signIn}
                 >
-                    <Text style={styles.textSign}>Get Started</Text>
+                    <Text style={styles.textSign}>Vamos Lá!</Text>
                     <MaterialIcons 
                         name="navigate-next"
                         color="#fff"
@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
   },
   text: {
       color: 'grey',
-      marginTop:5
+      marginTop:0
   },
   button: {
       alignItems: 'flex-end',

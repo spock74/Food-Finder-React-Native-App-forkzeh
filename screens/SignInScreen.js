@@ -116,7 +116,7 @@ const SignInScreen = ({navigation}) => {
       <View style={styles.container}>
           <StatusBar backgroundColor='#FF6347' barStyle="light-content"/>
         <View style={styles.header}>
-            <Text style={styles.text_header}>Welcome!</Text>
+            <Text style={styles.text_header}>Bem-Vindo!</Text>
         </View>
         <Animatable.View 
             animation="fadeInUpBig"
@@ -126,7 +126,7 @@ const SignInScreen = ({navigation}) => {
         >
             <Text style={[styles.text_footer, {
                 color: colors.text
-            }]}>Username</Text>
+            }]}>Nome</Text>
             <View style={styles.action}>
                 <FontAwesome 
                     name="user-o"
@@ -134,7 +134,7 @@ const SignInScreen = ({navigation}) => {
                     size={20}
                 />
                 <TextInput 
-                    placeholder="Your Username"
+                    placeholder="Seu Nome"
                     placeholderTextColor="#666666"
                     style={[styles.textInput, {
                         color: colors.text
@@ -157,7 +157,7 @@ const SignInScreen = ({navigation}) => {
             </View>
             { data.isValidUser ? null : 
             <Animatable.View animation="fadeInLeft" duration={500}>
-            <Text style={styles.errorMsg}>Username must be 4 characters long.</Text>
+            <Text style={styles.errorMsg}>O nome de usuário deve ter pelo menos 4 caracteres.</Text>
             </Animatable.View>
             }
             
@@ -165,7 +165,7 @@ const SignInScreen = ({navigation}) => {
             <Text style={[styles.text_footer, {
                 color: colors.text,
                 marginTop: 35
-            }]}>Password</Text>
+            }]}>Senha</Text>
             <View style={styles.action}>
                 <Feather 
                     name="lock"
@@ -173,7 +173,7 @@ const SignInScreen = ({navigation}) => {
                     size={20}
                 />
                 <TextInput 
-                    placeholder="Your Password"
+                    placeholder="Sua Senha"
                     placeholderTextColor="#666666"
                     secureTextEntry={data.secureTextEntry ? true : false}
                     style={[styles.textInput, {
@@ -202,13 +202,13 @@ const SignInScreen = ({navigation}) => {
             </View>
             { data.isValidPassword ? null : 
             <Animatable.View animation="fadeInLeft" duration={500}>
-            <Text style={styles.errorMsg}>Password must be 8 characters long.</Text>
+            <Text style={styles.errorMsg}>A senha deve conter pelo menos 8 caracteres.</Text>
             </Animatable.View>
             }
             
 
             <TouchableOpacity>
-                <Text style={{color: '#FF6347', marginTop:15}}>Forgot password?</Text>
+                <Text style={{color: '#FF6347', marginTop:15}}>Esqueceu sua senha?</Text>
             </TouchableOpacity>
             <View style={styles.button}>
                 <TouchableOpacity

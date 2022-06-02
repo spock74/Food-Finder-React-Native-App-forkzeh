@@ -13,7 +13,7 @@ export const data = [
       latitude: 22.6293867,
       longitude: 88.4354486,
     },
-    title: 'Amazing Food Place',
+    title: 'Local com relato de problema',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque est metus, gravida vel ex volutpat, posuere euismod tortor. Pellentesque tincidunt, mi ac varius blandit, quam orci dignissim risus, vitae rutrum orci urna ut neque.
       
       Pellentesque condimentum ut libero id blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.`,
@@ -28,7 +28,7 @@ export const data = [
       latitude: 22.6345648,
       longitude: 88.4377279,
     },
-    title: 'Second Amazing Food Place',
+    title: ' Local com relato de problema',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque est metus, gravida vel ex volutpat, posuere euismod tortor. Pellentesque tincidunt, mi ac varius blandit, quam orci dignissim risus, vitae rutrum orci urna ut neque.
       
       Pellentesque condimentum ut libero id blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.`,
@@ -43,7 +43,7 @@ export const data = [
       latitude: 22.6281662,
       longitude: 88.4410113,
     },
-    title: 'Third Amazing Food Place',
+    title: 'Local com relato de problema',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque est metus, gravida vel ex volutpat, posuere euismod tortor. Pellentesque tincidunt, mi ac varius blandit, quam orci dignissim risus, vitae rutrum orci urna ut neque.
       
       Pellentesque condimentum ut libero id blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.`,
@@ -58,7 +58,7 @@ export const data = [
       latitude: 22.6341137,
       longitude: 88.4497463,
     },
-    title: 'Fourth Amazing Food Place',
+    title: 'Fourth Local com relato de problema',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque est metus, gravida vel ex volutpat, posuere euismod tortor. Pellentesque tincidunt, mi ac varius blandit, quam orci dignissim risus, vitae rutrum orci urna ut neque.
       
       Pellentesque condimentum ut libero id blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.`,
@@ -73,7 +73,7 @@ export const data = [
       latitude: 22.6292757,
       longitude: 88.444781,
     },
-    title: 'Fifth Amazing Food Place',
+    title: 'Fifth Local com relato de problema',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque est metus, gravida vel ex volutpat, posuere euismod tortor. Pellentesque tincidunt, mi ac varius blandit, quam orci dignissim risus, vitae rutrum orci urna ut neque.
       
       Pellentesque condimentum ut libero id blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.`,
@@ -88,7 +88,7 @@ export const data = [
       latitude: 22.6293867,
       longitude: 88.4354486,
     },
-    title: 'Amazing Food Place',
+    title: 'Local com relato de problema',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque est metus, gravida vel ex volutpat, posuere euismod tortor. Pellentesque tincidunt, mi ac varius blandit, quam orci dignissim risus, vitae rutrum orci urna ut neque.
       
       Pellentesque condimentum ut libero id blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.`,
@@ -103,7 +103,7 @@ export const data = [
       latitude: 22.6345648,
       longitude: 88.4377279,
     },
-    title: 'Second Amazing Food Place',
+    title: ' Local com relato de problema',
     description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque est metus, gravida vel ex volutpat, posuere euismod tortor. Pellentesque tincidunt, mi ac varius blandit, quam orci dignissim risus, vitae rutrum orci urna ut neque.
       
       Pellentesque condimentum ut libero id blandit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.`,
